@@ -92,6 +92,7 @@
             this.textBox4 = new System.Windows.Forms.TextBox();
             this.textBox5 = new System.Windows.Forms.TextBox();
             this.textBox6 = new System.Windows.Forms.TextBox();
+            this.buttonSavePlaylist = new System.Windows.Forms.Button();
             this.contextMenuStrip1.SuspendLayout();
             this.contextMenuStrip2.SuspendLayout();
             this.contextMenuStrip3.SuspendLayout();
@@ -670,12 +671,23 @@
             this.textBox6.TabIndex = 42;
             this.textBox6.Text = "Ambiance";
             // 
+            // buttonSavePlaylist
+            // 
+            this.buttonSavePlaylist.Location = new System.Drawing.Point(262, 374);
+            this.buttonSavePlaylist.Name = "buttonSavePlaylist";
+            this.buttonSavePlaylist.Size = new System.Drawing.Size(75, 23);
+            this.buttonSavePlaylist.TabIndex = 43;
+            this.buttonSavePlaylist.Text = "Save Playlist";
+            this.buttonSavePlaylist.UseVisualStyleBackColor = true;
+            this.buttonSavePlaylist.Click += new System.EventHandler(this.buttonSavePlaylist_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gray;
             this.ClientSize = new System.Drawing.Size(1013, 814);
+            this.Controls.Add(this.buttonSavePlaylist);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
@@ -797,6 +809,7 @@
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox5;
         private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.Button buttonSavePlaylist;
     }
 }
 

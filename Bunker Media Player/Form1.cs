@@ -129,6 +129,34 @@ namespace Bunker_Media_Player
             }
                 //musicList1.Items.Add(s[i]);
         }
+
+        private void buttonSavePlaylist_Click(object sender, EventArgs e)
+        {
+            StreamWriter streamWriter;
+            SaveFileDialog savePlaylist = new SaveFileDialog();
+            WMPLib.IWMPMedia media;
+
+            try
+            {
+                savePlaylist.Filter = ("XML File|*.xml|All Files|*.*");
+                savePlaylist.ShowDialog();
+                streamWriter = new StreamWriter(savePlaylist.FileName);
+                for (int i = 0; i < musicList1.Items.Count; i++)
+                {
+                    int ii = 1;
+                    media = musicPlayer1.newMedia(musicList1.Items[i].SubItems[ii].Text);
+                    streamWriter.WriteLine(media);
+                    ii++;
+                    
+                }
+                streamWriter.Close();
+                MessageBox.Show("Playlist saved.");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Error: Trying to save playlist. Error code: " + ex);
+            }
+        }
         #endregion
 
         #region MusikPlayer2
@@ -690,7 +718,5 @@ namespace Bunker_Media_Player
             //else
             //    e.Effect = DragDropEffects.None;
         }
-
-        
     }
 }
