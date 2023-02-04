@@ -27,6 +27,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_578BAAC74C164EF8849E82797E4B8C3D"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C0A6C91A7F664577B1134A7FED69241D"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -41,12 +47,6 @@
         {
         "MsmKey" = "8:_EB88B32B6389CD11218D8E7FD7245F83"
         "OwnerKey" = "8:_0AE5541D2CB48313D193D4A6865DB749"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_EF52B0CE0CB746CAA0E2D67E7E00712B"
-        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -161,6 +161,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_578BAAC74C164EF8849E82797E4B8C3D"
+            {
+            "SourcePath" = "8:C:\\Users\\mista\\Downloads\\Vlademareous-Music-Radio.128.png"
+            "TargetName" = "8:Vlademareous-Music-Radio.128.png"
+            "Tag" = "8:"
+            "Folder" = "8:_FD39AEA3A2004E7DBB40AD8D8944E5A0"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_CA262626DF6A876F9C4E81484A67AD33"
             {
             "AssemblyRegister" = "3:1"
@@ -210,26 +230,6 @@
             "Register" = "3:1"
             "Exclude" = "11:FALSE"
             "IsDependency" = "11:TRUE"
-            "IsolateTo" = "8:"
-            }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_EF52B0CE0CB746CAA0E2D67E7E00712B"
-            {
-            "SourcePath" = "8:C:\\Program Files (x86)\\Ronnie Grahn\\Bunker Media Player\\Vlademareous-Music-Radio.ico"
-            "TargetName" = "8:Vlademareous-Music-Radio.ico"
-            "Tag" = "8:"
-            "Folder" = "8:_FD39AEA3A2004E7DBB40AD8D8944E5A0"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
             "IsolateTo" = "8:"
             }
         }
@@ -287,9 +287,9 @@
         "Product"
         {
         "Name" = "8:Microsoft Visual Studio"
-        "ProductName" = "8:BMP"
+        "ProductName" = "8:Bunker Media Player"
         "ProductCode" = "8:{0B372ECE-A381-489D-8874-322F7697CD84}"
-        "PackageCode" = "8:{DAAF86F6-5988-4251-9D2D-24CD3F9F007E}"
+        "PackageCode" = "8:{6D2A3A21-64C4-41A8-BB1A-7E935821B5B9}"
         "UpgradeCode" = "8:{767E5F4F-C728-41C4-A22C-EB15176CB5B4}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -297,12 +297,12 @@
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:FALSE"
         "ProductVersion" = "8:1.0.0"
-        "Manufacturer" = "8:Default Company Name"
+        "Manufacturer" = "8:psydev"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
         "Title" = "8:SetupBMP"
         "Subject" = "8:"
-        "ARPCONTACT" = "8:Default Company Name"
+        "ARPCONTACT" = "8:Ronnie Grahn"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
@@ -409,20 +409,6 @@
         }
         "Shortcut"
         {
-            "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_A5F0C6F4C8264A09A6BB202588E590D3"
-            {
-            "Name" = "8:Shortcut to Primary output from Bunker Media Player (Active)"
-            "Arguments" = "8:"
-            "Description" = "8:"
-            "ShowCmd" = "3:1"
-            "IconIndex" = "3:0"
-            "Transitive" = "11:FALSE"
-            "Target" = "8:_C0A6C91A7F664577B1134A7FED69241D"
-            "Folder" = "8:_FD39AEA3A2004E7DBB40AD8D8944E5A0"
-            "WorkingFolder" = "8:_FD39AEA3A2004E7DBB40AD8D8944E5A0"
-            "Icon" = "8:_EF52B0CE0CB746CAA0E2D67E7E00712B"
-            "Feature" = "8:"
-            }
         }
         "UserInterface"
         {
@@ -824,7 +810,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C0A6C91A7F664577B1134A7FED69241D"
             {
-            "SourcePath" = "8:..\\Bunker Media Player\\obj\\Debug\\Bunker Media Player.exe"
+            "SourcePath" = "8:..\\Bunker Media Player\\obj\\Release\\Bunker Media Player.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_FD39AEA3A2004E7DBB40AD8D8944E5A0"
