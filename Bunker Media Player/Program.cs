@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,8 +16,10 @@ namespace Bunker_Media_Player
         static void Main()
         {
             Application.EnableVisualStyles();
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+			Application.SetDefaultFont(new Font(new FontFamily("Microsoft Sans Serif"), 8f));
+			Application.Run(new Form1());
         }
     }
 }
